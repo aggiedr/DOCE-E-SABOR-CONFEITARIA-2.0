@@ -1,0 +1,91 @@
+{
+  "configuracao": {
+    "empresa": "Doce & Sabor Confeitaria Artesanal",
+    "subtitulo": "Assistente virtual",
+    "confeiteira": "Yara Ribeiro",
+    "whatsapp_numero": "5519983850132",
+    "whatsapp_exibicao": "(19) 98385-0132",
+    "instagram": "@doceysaborconfeitaria",
+    "cidades_atendidas": ["Campinas", "Valinhos", "Vinhedo", "Paulínia"],
+    "mensagem_boas_vindas": "Olá! 👋 Sou o assistente da Doce & Sabor. Como posso ajudar você hoje?"
+  },
+  "faq": [
+    {
+      "id": "encomendas",
+      "titulo": "🎂 Como fazer uma encomenda",
+      "exibir_no_menu": true,
+      "palavras_chave": ["encomenda", "encomendar", "pedido", "pedir", "orcamento", "comprar", "como funciona", "processo"],
+      "resposta": "É simples: 1. Escolha a linha ou envie a ideia do seu tema. 2. Peça o orçamento pelo formulário ou WhatsApp, informando quantidades e data. 3. Produzimos tudo fresquinho no ateliê. 4. Você recebe no local do evento ou retira no ateliê.",
+      "link_whatsapp": "Olá! Gostaria de solicitar um orçamento."
+    },
+    {
+      "id": "especialidades",
+      "titulo": "🍰 Nossas especialidades",
+      "exibir_no_menu": true,
+      "palavras_chave": ["especialidade", "especialidades", "produtos", "cardapio", "linhas", "doces", "vendem", "trabalham", "opcoes"],
+      "resposta": "Temos três linhas: 👰 Doces Finos & Casamentos (eventos de alto padrão), 🎁 Doces Personalizados (modelados para festas) e 🍫 Sobremesas & Pronta Entrega (brownies, copinhos de ganache e tortas)."
+    },
+    {
+      "id": "casamentos",
+      "titulo": "👰 Casamentos e doces finos",
+      "exibir_no_menu": false,
+      "palavras_chave": ["casamento", "casamentos", "noiva", "fino", "finos", "15 anos", "debutante", "corporativo", "evento", "cerimonial"],
+      "resposta": "Nossa linha de Doces Finos & Casamentos atende casamentos, festas de 15 anos e eventos corporativos de alto padrão, com acabamento refinado e ouro comestível.",
+      "link_whatsapp": "Gostaria de saber mais sobre Doces Finos para casamento."
+    },
+    {
+      "id": "horarios",
+      "titulo": "🕒 Horário de atendimento",
+      "exibir_no_menu": true,
+      "palavras_chave": ["horario", "horarios", "hora", "horas", "funciona", "funcionamento", "aberto", "abre", "fecha", "domingo", "sabado"],
+      "resposta": "Atendemos de Terça a Sábado, das 09h às 18h, e aos Domingos, das 09h às 12h."
+    },
+    {
+      "id": "entrega",
+      "titulo": "🚚 Entrega e região atendida",
+      "exibir_no_menu": true,
+      "palavras_chave": ["entrega", "entregam", "entregar", "frete", "regiao", "atendem", "cidade", "cidades", "valinhos", "vinhedo", "paulinia", "campinas", "retirada", "retirar"],
+      "resposta": "Atendemos sob encomenda em Campinas, Valinhos, Vinhedo, Paulínia e toda a Região Metropolitana. As entregas são refrigeradas. Você também pode retirar no ateliê."
+    },
+    {
+      "id": "endereco",
+      "titulo": "📍 Endereço e degustação",
+      "exibir_no_menu": false,
+      "palavras_chave": ["endereco", "onde", "fica", "localizacao", "atelie", "degustacao", "degustar", "visitar", "provar", "mapa"],
+      "resposta": "Nosso ateliê fica em Campinas - SP. A degustação e o atendimento presencial são feitos mediante agendamento prévio.",
+      "link_whatsapp": "Olá! Gostaria de agendar uma degustação e saber o endereço do ateliê."
+    },
+    {
+      "id": "precos",
+      "titulo": "💳 Preços e pagamento",
+      "exibir_no_menu": true,
+      "palavras_chave": ["preco", "precos", "valor", "valores", "quanto", "custa", "pagamento", "pagar", "pix", "cartao", "boleto", "parcelar", "sinal"],
+      "resposta": "Como cada projeto é feito sob medida, os valores variam conforme quantidade, tema e data. Fazemos o orçamento sem compromisso.",
+      "link_whatsapp": "Olá! Gostaria de saber valores e formas de pagamento."
+    },
+    {
+      "id": "calculo_quantidade",
+      "titulo": "🧁 Quantos doces pedir por convidado",
+      "exibir_no_menu": true,
+      "palavras_chave": ["quantos", "convidado", "convidados", "pessoas", "calcular", "cento", "quantidade por pessoa"],
+      "resposta": "A quantidade ideal depende do tipo de evento, horário e se haverá bolo. Passe o número de convidados no WhatsApp que ajudamos a calcular!",
+      "link_whatsapp": "Olá! Gostaria de ajuda para calcular a quantidade de doces para o meu evento."
+    },
+    {
+      "id": "restricoes",
+      "titulo": "🌱 Restrições alimentares",
+      "exibir_no_menu": false,
+      "palavras_chave": ["gluten", "lactose", "vegano", "vegana", "alergia", "alergico", "alergica", "restricao", "restricoes", "diet", "zero acucar"],
+      "resposta": "Se você tem restrição alimentar ou alergia, avise antes de fechar o pedido para confirmarmos a possibilidade de atendimento.",
+      "link_whatsapp": "Olá! Gostaria de saber sobre opções para restrição alimentar ou alergia."
+    },
+    {
+      "id": "atendente",
+      "titulo": "📞 Falar com atendente",
+      "exibir_no_menu": true,
+      "palavras_chave": ["contato", "atendente", "whatsapp", "zap", "telefone", "falar", "ligar", "humano", "instagram"],
+      "resposta": "Fale com a gente diretamente no WhatsApp (19) 98385-0132 ou pelo Instagram @doceysaborconfeitaria.",
+      "link_whatsapp": "Olá! Vim pelo site e gostaria de falar com um atendente."
+    }
+  ]
+}

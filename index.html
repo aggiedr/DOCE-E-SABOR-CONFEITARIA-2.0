@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doce & Sabor | Confeitaria Fina & Doces Artesanais em Campinas</title>
+    
+    <!-- Google Fonts: Playfair Display + Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="chatbot.js"></script>
+<script>
+  // Inicializa o chatbot apontando para a sua base de dados extra em JSON
+  initChatbot({
+    jsonUrl: 'minha-base-dados.json'
+  });
+</script>
+<body>
+    <!-- TELA DE CARREGAMENTO (PRELOADER) -->
+<div id="preloader">
+    <div class="preloader-content">
+        <h1 class="preloader-logo">Doce <span>&</span> Sabor</h1>
+        <p class="preloader-tagline">CONFEITARIA ARTESANAL</p>
+        <div class="preloader-spinner"></div>
+    </div>
+</div>
+
+    <!-- 1. HEADER / NAVBAR STICKY -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#inicio" class="brand-logo">
+                <span class="logo-text">Doce <span class="logo-ampersand">&</span> Sabor</span>
+                <span class="logo-tagline">CONFEITARIA ARTESANAL</span>
+            </a>
+            
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Especialidades</a></li>
+                    <li><a href="#galeria">Portfólio</a></li>
+                    <li><a href="#depoimentos">Avaliações</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="https://wa.me/5519983850132?text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento." class="btn-whatsapp-header" target="_blank" rel="noopener noreferrer">
+                    💬 Solicitar Orçamento
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 2. HERO SECTION COM CARROSSEL HORIZONTAL -->
+    <section id="inicio" class="hero-section">
+        <div class="hero-container">
+            <div class="hero-content">
+                <span class="hero-badge">✨ Alta Confeitaria em Campinas & Região</span>
+                <h1 class="hero-headline">Doces Finos e Sobremesas Artesanais Feitos com Amor e Design</h1>
+                <p class="hero-subheadline">
+                    Onde o design encontra o sabor. Bolos personalizados e confeitaria sofisticada para transformar seus momentos em memórias inesquecíveis.
+                </p>
+                <div class="hero-cta-group">
+                    <a href="https://wa.me/5519983850132?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20fazer%20um%20pedido." class="btn-cta-primary" target="_blank" rel="noopener noreferrer">
+                        Fazer Pedido via WhatsApp 💬
+                    </a>
+                    <a href="#servicos" class="btn-cta-secondary">
+                        Ver Cardápio
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="slider-wrapper">
+                    <div class="slider-track">
+                        <img class="slide-img" src="71906.jpg" alt="Mesa de Doces Finos para Casamentos">
+                        <img class="slide-img" src="2 (1 de 1).jpg" alt="Copinhos de Chocolate com Cereja">
+                        <img class="slide-img" src="3 (1 de 1).jpg" alt="Quadrados Fina Confeitaria">
+                        <img class="slide-img" src="5 (1 de 1).jpg" alt="Caminhas Crocantes com Recheio">
+                    </div>
+                    <div class="hero-image-card">
+                        <div class="card-stars">★★★★★</div>
+                        <p class="card-text">Ateliê altamente recomendado por noivas e cerimonialistas em Campinas</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. QUEM SOMOS / NOSSA HISTÓRIA -->
+    <section id="sobre" class="sobre-section">
+        <div class="sobre-container">
+            <div class="sobre-image-col">
+                <div class="about-image-wrapper">
+                    <img src="71910.webp" alt="Yara Ribeiro - Confeiteira e Fundadora da Doce & Sabor" class="fundadora-img">
+                    <div class="about-experience-badge">
+                        <span class="badge-title">Ateliê Artesanal</span>
+                        <span class="badge-sub">Feito à Mão em Campinas</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="sobre-text-col">
+                <span class="section-tag">Nossa História</span>
+                <h2 class="section-title">A Paixão que Transformou Ideias em Arte Comestível</h2>
+                <p class="paragraph-lead">
+                    A trajetória da Doce & Sabor nasceu pelas mãos de <strong>Yara Ribeiro</strong>, que encontrou na alta confeitaria uma vocação para transformar celebrações em experiências inesquecíveis.
+                </p>
+                <p class="paragraph-body">
+                    A partir de estudos aprofundados em técnicas francesas e brasileiras, e com receitas aperfeiçoadas com rigor no ateliê, tornamo-nos referência em doces finos e modelados para casamentos, festas de 15 anos e eventos corporativos de alto padrão na Região Metropolitana de Campinas.
+                </p>
+                
+                <div class="badges-grid">
+                    <div class="badge-item">
+                        <span class="badge-icon">📍</span>
+                        <div class="badge-info">
+                            <strong>Atendimento em Campinas</strong>
+                            <span>E Região Metropolitana</span>
+                        </div>
+                    </div>
+                    <div class="badge-item">
+                        <span class="badge-icon">🍫</span>
+                        <div class="badge-info">
+                            <strong>Ingredientes Selecionados</strong>
+                            <span>Chocolates Nobres & Frescor</span>
+                        </div>
+                    </div>
+                    <div class="badge-item">
+                        <span class="badge-icon">💖</span>
+                        <div class="badge-info">
+                            <strong>Design Exclusivo</strong>
+                            <span>Projetos Sob Medida</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. PASSO A PASSO -->
+    <section class="passos-section">
+        <div class="container-center">
+            <div class="section-header">
+                <span class="section-tag">Processo Simples</span>
+                <h2 class="section-title">Como Funciona a Sua Encomenda</h2>
+            </div>
+            <div class="passos-grid">
+                <div class="passo-card">
+                    <span class="passo-numero">01</span>
+                    <h4>Escolha a Linha</h4>
+                    <p>Navegue pelas nossas especialidades ou envie-nos a ideia do seu tema personalizado.</p>
+                </div>
+                <div class="passo-card">
+                    <span class="passo-numero">02</span>
+                    <h4>Orçamento Rápido</h4>
+                    <p>Entre em contato via formulário ou WhatsApp para alinhar quantidades e a data do evento.</p>
+                </div>
+                <div class="passo-card">
+                    <span class="passo-numero">03</span>
+                    <h4>Produção Artesanal</h4>
+                    <p>Preparamos tudo fresquinho, com insumos selecionados e rigor de qualidade no ateliê.</p>
+                </div>
+                <div class="passo-card">
+                    <span class="passo-numero">04</span>
+                    <h4>Entrega ou Retirada</h4>
+                    <p>Receba no local do seu evento ou retire no ateliê com toda a segurança necessária.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. SEÇÃO DE SERVIÇOS / NOSSAS ESPECIALIDADES (FLIP CARDS 3D) -->
+    <section id="servicos" class="servicos-section">
+        <div class="container-center">
+            <div class="section-header">
+                <span class="section-tag">Nossas Especialidades</span>
+                <h2 class="section-title">Descubra Nossas Linhas Exclusivas</h2>
+                <p class="section-subtitle">Passe o mouse sobre os cards para ver os detalhes e solicitar seu orçamento.</p>
+            </div>
+
+            <div class="servicos-grid">
+                
+                <!-- CARD 1: DOCES FINOS -->
+                <div class="card-container">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="71906.jpg" alt="Doces Finos & Casamentos">
+                            <div class="card-front-title">
+                                <span class="card-icon">👰</span>
+                                <h3>Doces Finos & Casamentos</h3>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <h3>Doces Finos & Casamentos</h3>
+                            <p>Linha exclusiva para casamentos e eventos corporativos de alto padrão com acabamento em ouro comestível, caminhas folheadas e apresentações refinadas.</p>
+                            <a href="https://wa.me/5519983850132?text=Gostaria%20de%20saber%20mais%20sobre%20Doces%20Finos." class="btn-card-back" target="_blank" rel="noopener noreferrer">Solicitar Orçamento ✨</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 2: DOCES TEMÁTICOS -->
+                <div class="card-container">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="1 (1 de 1).jpg" alt="Doces Personalizados Temáticos">
+                            <div class="card-front-title">
+                                <span class="card-icon">🎁</span>
+                                <h3>Doces Personalizados</h3>
+                            </div>
+                        </div>
+                        <div class="card-back highlight-card-back">
+                            <h3>Doces Personalizados</h3>
+                            <p>Bolos e doces modelados sob medida para festas infantis e comemorações especiais, esculpidos à mão com acabamento impecável.</p>
+                            <a href="https://wa.me/5519983850132?text=Gostaria%20de%20saber%20mais%20sobre%20Doces%20Tematicos." class="btn-card-back" target="_blank" rel="noopener noreferrer">Solicitar Orçamento ✨</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 3: SOBREMESAS -->
+                <div class="card-container">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="2 (1 de 1).jpg" alt="Sobremesas & Pronta Entrega">
+                            <div class="card-front-title">
+                                <span class="card-icon">🍫</span>
+                                <h3>Sobremesas & Pronta Entrega</h3>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <h3>Sobremesas & Pronta Entrega</h3>
+                            <p>Brownies, copinhos de ganache, tortas artesanais de cacau e sobremesas individuais em embalagens delicadas para o seu dia a dia.</p>
+                            <a href="https://wa.me/5519983850132?text=Gostaria%20de%20saber%20mais%20sobre%20Sobremesas." class="btn-card-back" target="_blank" rel="noopener noreferrer">Solicitar Orçamento ✨</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. GALERIA SHOWCASE -->
+    <section id="galeria" class="galeria-section">
+        <div class="container-center">
+            <div class="section-header">
+                <span class="section-tag">Portfólio em Destaque</span>
+                <h2 class="section-title">Galeria de Criações Artesanais</h2>
+                <p class="section-subtitle">Conheça de perto o cuidado estético e o acabamento dos nossos doces.</p>
+            </div>
+
+            <div class="gallery-grid">
+                <figure class="gallery-item">
+                    <img src="2 (1 de 1).jpg" alt="Copinhos de Chocolate com Cereja">
+                    <figcaption class="gallery-caption">
+                        <span class="caption-tag">Doces Finos</span>
+                        <h4 class="caption-title">Copinhos de Chocolate Nobre com Cereja Fresca</h4>
+                    </figcaption>
+                </figure>
+
+                <figure class="gallery-item">
+                    <img src="3 (1 de 1).jpg" alt="Doces Finos Quadrados Lilás">
+                    <figcaption class="gallery-caption">
+                        <span class="caption-tag">Casamentos</span>
+                        <h4 class="caption-title">Quadrados de Leite Ninho com Flor Lilás</h4>
+                    </figcaption>
+                </figure>
+
+                <figure class="gallery-item">
+                    <img src="5 (1 de 1).jpg" alt="Caminhas de Doce de Leite">
+                    <figcaption class="gallery-caption">
+                        <span class="caption-tag">Sobremesas</span>
+                        <h4 class="caption-title">Caminhas Crocantes com Recheio Aveludado</h4>
+                    </figcaption>
+                </figure>
+
+                <figure class="gallery-item">
+                    <img src="1 (1 de 1).jpg" alt="Pirulitos Temáticos Personalizados">
+                    <figcaption class="gallery-caption">
+                        <span class="caption-tag">Personalizados</span>
+                        <h4 class="caption-title">Pirulitos Decorados e Modelados à Mão</h4>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. DEPOIMENTOS -->
+    <section id="depoimentos" class="depoimentos-section">
+        <div class="container-center">
+            <div class="section-header">
+                <span class="section-tag">Depoimentos</span>
+                <h2 class="section-title">O Que Dizem Nossos Clientes</h2>
+            </div>
+            <div class="depoimentos-grid">
+                <div class="depoimento-card">
+                    <div class="depoimento-stars">★★★★★</div>
+                    <p>"Os doces finos do meu casamento foram o ponto alto da festa! Todos os convidados elocubraram o sabor do copinho de cereja e a beleza da mesa."</p>
+                    <strong>— Camila M., Noiva em Campinas</strong>
+                </div>
+                <div class="depoimento-card">
+                    <div class="depoimento-stars">★★★★★</div>
+                    <p>"A Yara captou exatamente o tema da festa de 1 ano do meu filho. Os doces modelados pareciam esculturas e o sabor era incrivelmente suave."</p>
+                    <strong>— Juliana T., Aniversariante</strong>
+                </div>
+                <div class="depoimento-card">
+                    <div class="depoimento-stars">★★★★★</div>
+                    <p>"Atendimento impecável do orçamento à entrega. Pontualidade e uma apresentação de encher os olhos. Recomendo de olhos fechados!"</p>
+                    <strong>— Patricia R., Cerimonialista</strong>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 6. GALERIA SHOWCASE (LIGHTBOX 100% CSS) -->
+    <section id="galeria" class="galeria-section">
+        <div class="container-center">
+            <div class="section-header">
+                <span class="section-tag">Portfólio em Destaque</span>
+                <h2 class="section-title">Galeria de Criações Artesanais</h2>
+                <p class="section-subtitle">Clique em qualquer imagem para ampliar e ver os detalhes</p>
+            </div>
+
+            <!-- GRID DA GALERIA -->
+            <div class="gallery">
+                <a href="#img1" class="gallery-item">
+                    <img src="1 (1 de 1).jpg" alt="Pirulitos Personalizados Ágata">
+                </a>
+                <a href="#img2" class="gallery-item">
+                    <img src="2 (1 de 1).jpg" alt="Copinhos de Chocolate com Cereja">
+                </a>
+                <a href="#img3" class="gallery-item">
+                    <img src="3 (1 de 1).jpg" alt="Doces Finos Quadrados Lilás">
+                </a>
+                <a href="#img4" class="gallery-item">
+                    <img src="4 (1 de 1).jpg" alt="Brigadeiros Personalizados 15 Anos">
+                </a>
+                <a href="#img5" class="gallery-item">
+                    <img src="5 (1 de 1).jpg" alt="Caminhas de Chocolate com Recheio">
+                </a>
+                <a href="#img6" class="gallery-item">
+                    <img src="6 (1 de 1).jpg" alt="Doces Quadrados Personalizados A">
+                </a>
+            </div>
+
+            <!-- MODAIS LIGHTBOX (IMAGENS AMPLIADAS) -->
+            <div class="lightbox" id="img1">
+                <a href="#galeria" class="lightbox-overlay"></a>
+                <div class="lightbox-content">
+                    <a href="#galeria" class="close-btn">&times;</a>
+                    <img src="1 (1 de 1).jpg" alt="Pirulitos Personalizados Ágata">
+                </div>
+            </div>
+
+            <div class="lightbox" id="img2">
+                <a href="#galeria" class="lightbox-overlay"></a>
+                <div class="lightbox-content">
+                    <a href="#galeria" class="close-btn">&times;</a>
+                    <img src="2 (1 de 1).jpg" alt="Copinhos de Chocolate com Cereja">
+                </div>
+            </div>
+
+            <div class="lightbox" id="img3">
+                <a href="#galeria" class="lightbox-overlay"></a>
+                <div class="lightbox-content">
+                    <a href="#galeria" class="close-btn">&times;</a>
+                    <img src="3 (1 de 1).jpg" alt="Doces Finos Quadrados Lilás">
+                </div>
+            </div>
+
+            <div class="lightbox" id="img4">
+                <a href="#galeria" class="lightbox-overlay"></a>
+                <div class="lightbox-content">
+                    <a href="#galeria" class="close-btn">&times;</a>
+                    <img src="4 (1 de 1).jpg" alt="Brigadeiros Personalizados 15 Anos">
+                </div>
+            </div>
+
+            <div class="lightbox" id="img5">
+                <a href="#galeria" class="lightbox-overlay"></a>
+                <div class="lightbox-content">
+                    <a href="#galeria" class="close-btn">&times;</a>
+                    <img src="5 (1 de 1).jpg" alt="Caminhas de Chocolate com Recheio">
+                </div>
+            </div>
+
+            <div class="lightbox" id="img6">
+                <a href="#galeria" class="lightbox-overlay"></a>
+                <div class="lightbox-content">
+                    <a href="#galeria" class="close-btn">&times;</a>
+                    <img src="6 (1 de 1).jpg" alt="Doces Quadrados Personalizados A">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. CONTATO -->
+    <section id="contato" class="contato-section">
+        <div class="contato-container">
+            <div class="contato-info-col">
+                <span class="section-tag">Contato & Agendamento</span>
+                <h2 class="section-title">Solicite seu Orçamento sem Compromisso</h2>
+                <p class="contato-intro">
+                    Atendemos sob encomenda em Campinas, Valinhos, Vinhedo, Paulínia e toda a Região Metropolitana. Garanta a disponibilidade da sua data com antecedência!
+                </p>
+
+                <div class="info-list">
+                    <div class="info-card">
+                        <span class="info-icon">📍</span>
+                        <div>
+                            <strong>Ateliê em Campinas - SP</strong>
+                            <p>Atendimento presencial para degustação mediante agendamento prévio.</p>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <span class="info-icon">⏰</span>
+                        <div>
+                            <strong>Horário de Atendimento</strong>
+                            <p>Terça a Sábado: 09h às 18h | Domingo: 09h às 12h</p>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <span class="info-icon">💬</span>
+                        <div>
+                            <strong>WhatsApp Oficial</strong>
+                            <p>(19) 98385-0132</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mapa-simulado">
+                    <div class="mapa-header">🗺️ Área de Atendimento Principal</div>
+                    <div class="mapa-body">
+                        Entregas refrigeradas e personalizadas programadas para eventos em toda a RMC.
+                    </div>
+                </div>
+            </div>
+
+            <div class="contato-form-col">
+                <form class="contact-form" action="#" method="POST" onsubmit="event.preventDefault(); alert('Sua solicitação foi enviada com sucesso! Entraremos em contato em breve pelo WhatsApp.');">
+                    <h3 class="form-title">Enviar Solicitação</h3>
+                    
+                    <div class="form-field">
+                        <label for="nome">Nome Completo *</label>
+                        <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-field">
+                            <label for="email">E-mail *</label>
+                            <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+                        </div>
+
+                        <div class="form-field">
+                            <label for="telefone">Telefone / WhatsApp *</label>
+                            <input type="tel" id="telefone" name="telefone" placeholder="(19) 9999-9999" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-field">
+                            <label for="data-evento">Data do Evento *</label>
+                            <input type="date" id="data-evento" name="data-evento" required>
+                        </div>
+
+                        <div class="form-field">
+                            <label for="linha-produto">Linha de Interesse *</label>
+                            <select id="linha-produto" name="linha-produto" required>
+                                <option value="" disabled selected>Selecione uma opção</option>
+                                <option value="casamentos">Doces Finos & Casamentos</option>
+                                <option value="tematicos">Doces Personalizados Temáticos</option>
+                                <option value="sobremesas">Sobremesas & Pronta Entrega</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="mensagem">Detalhes do Evento ou Dúvidas</label>
+                        <textarea id="mensagem" name="mensagem" rows="4" placeholder="Informe quantidade aproximada de convidados, tema ou doces desejados..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-submit-form">Enviar Pedido de Orçamento ✨</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- BANNER DE COOKIES -->
+    <div id="cookie-banner" class="cookie-banner">
+        <div class="cookie-content">
+            <p>🍪 Respeitamos sua privacidade. Usamos cookies para personalizar a experiência e o atendimento do ateliê. Concorda?</p>
+            <button id="btn-accept-cookies" class="btn-cookie-accept">Aceitar e Fechar</button>
+        </div>
+    </div>
+
+    <!-- 9. FOOTER -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col brand-col">
+                <a href="#inicio" class="brand-logo footer-logo">
+                    <span class="logo-text">Doce <span class="logo-ampersand">&</span> Sabor</span>
+                    <span class="logo-tagline">CONFEITARIA ARTESANAL</span>
+                </a>
+                <p class="footer-desc">
+                    Alta confeitaria artesanal em Campinas e Região. Criamos memórias doces com acabamento refinado e sabor inigualável.
+                </p>
+            </div>
+
+            <div class="footer-col">
+                <h4 class="footer-heading">Navegação</h4>
+                <ul class="footer-links">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Nossa História</a></li>
+                    <li><a href="#servicos">Especialidades</a></li>
+                    <li><a href="#galeria">Portfólio</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4 class="footer-heading">Canais Oficiais</h4>
+                <div class="social-links">
+                    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="social-btn">📸 Instagram @doceesabor.campinas</a>
+                    <a href="https://wa.me/5519983850132" target="_blank" rel="noopener noreferrer" class="social-btn">💬 Atendimento no WhatsApp</a>
+                    <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" class="social-btn">📍 Localização em Campinas - SP</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Doce & Sabor - Confeitaria Artesanal por Yara Ribeiro. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- SCRIPT DE GERENCIAMENTO DE COOKIES -->
+    <script>
+        const cookieBanner = document.getElementById('cookie-banner');
+        const btnAcceptCookies = document.getElementById('btn-accept-cookies');
+
+        if (localStorage.getItem('doces_cookies_accepted') === 'true') {
+            cookieBanner.style.display = 'none';
+        }
+
+        btnAcceptCookies.addEventListener('click', () => {
+            localStorage.setItem('doces_cookies_accepted', 'true');
+            cookieBanner.style.display = 'none';
+        });
+    </script>
+    <!-- SCRIPT DO PRELOADER -->
+<script>
+    window.addEventListener('load', () => {
+        const preloader = document.getElementById('preloader');
+        // Adiciona a classe que faz o efeito de desvanecer (fade-out)
+        preloader.classList.add('preloader-hidden');
+        
+        // Remove do DOM após a transição para não bloquear cliques
+        setTimeout(() => {
+            preloader.style.display = 'none';
+        }, 600);
+    });
+</script>
+
+</body>
+</html>
